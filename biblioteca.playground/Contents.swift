@@ -19,7 +19,6 @@ func menorQuantidadePaginas() -> String {
     let list = [books1.pageNumber, books2.pageNumber, books3.pageNumber, books4.pageNumber, books5.pageNumber, books6.pageNumber, books7.pageNumber]
     let minValue = list.min()
     
-    
     if minValue == books1.pageNumber {
         return books1.name
     }
